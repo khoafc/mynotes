@@ -14,5 +14,11 @@ urlpatterns = [
     path('user/getword/', views.getWord, name = 'get-word' ),
     path('user/getdata/', views.getData, name = 'get-data' ),
     path('user/tracking/', views.getTracking, name = 'get-tracking' ),
-     path('user/clear/', views.clear, name = 'clear' ),    
+     path('user/clear/', views.clear, name = 'clear' ),
+
+
+
+
+    # path('create-post/', views.create_post_view, name ='create-note')
+    
 ]

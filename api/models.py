@@ -30,7 +30,6 @@ class User(models.Model):
 
 
 class Product(models.Model):
-    # user = models.TextField()
     username = models.TextField()
     # username = models.ForeignKey(User, on_delete=models.CASCADE)
     content = models.TextField()
